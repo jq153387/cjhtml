@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="ROBOTS" content="INDEX,FOLLOW">
+<meta name="revisit-after" content="1 days">
+<meta name="description" content="CJHTML을 사용하면 깨끗하고 아름다운 HTML을 얻을 수 있습니다.">
+<meta name="keywords" content="HTML標籤清潔,html清潔屬性,自動刪除屬性">
+<meta name="copyright" content="Copyright © 2013 CITIAR 版權所有">
+<title>CJHTML</title>
+<link href="favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+<link href="css/template.css" rel="stylesheet" media="screen">
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/cjhtml.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-40180298-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-40180298-1');
+</script>
+
+</head>
+<body>
+<div class="out-w">
+<header><ul class="lag_mu"><li><a href="index_en.html">English</a></li>
+  <li><a href="index_cn.html">简体中文</a></li>
+  <li><a href="index.html">繁體中文</a></li><li><a href="index_jp.html">日本語</a></li><li><a href="index_ku.html">한국어</a></li></ul></header>
+<div class="content-wrapper">
+<article>
+<section class="main-head">
+  <div class="main-left">
+    <div class="logo"><img src="images/cjhtml.png" alt="cjhtml"></div>
+    <p>CJHTML을 사용하면 깨끗하고 아름다운 HTML을 얻을 수 있습니다.</p>
+    <button id="b1" class="btn btn-success btn-large">청소 시작</button>
+    <button type="button" class="btn btn-large" disabled="disabled" id="copys" onClick="copyVal()">결과 복사</button>
+  </div>
+  <div class="main-ad">
+      <script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <!-- 200X200 -->
+      <ins class="adsbygoogle"
+           style="display:inline-block;width:200px;height:200px"
+           data-ad-client="ca-pub-7199598699862512"
+           data-ad-slot="9980260931"></ins>
+      <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+  </div>
+</section>
+<section class="main-body"> 
+	<h2>청소 결과</h2>  
+   <textarea id="rul"></textarea>
+   <div id="at2"></div>
+    <div id="swout">
+    </div>
+   </section>
+</article>
+<aside>
+<div class="input-wrapper">
+<h2>여기에서 정리할 HTML을 붙여 넣으십시오.</h2>
+<div class="in-wapper">
+<textarea id="at1">
+</textarea>
+</div>
+</div>
+<div class="input-wrapper input-att">
+<h2>원하지 않는 속성과 태그에 대해 알려주십시오.</h2>
+<div class="in-wapper">
+<h3 data-toggle="tooltip" title="삭제할 속성을 공백으로 구분하십시오 (다음 항목은 기본적으로 삭제되도록 사전 설정되어 있으며 사용자가 직접 삭제할 수 있습니다)">속성</h3>
+<textarea name="val" id="val">class title border cellpadding cellspacing style bordercolor width height valign align bgcolor face size color msimagelist lang</textarea>
+<div class="pu-tag">
+<h3 data-toggle="tooltip" title="입력 필드에 지울 HTML 태그를 입력하십시오 ( '<>'기호를 사용하지 말고 <p> 대신 'p'와 같은 이름을 직접 입력하십시오).">레이블</h3>
+<button id="addin" class="btn"><i class="icon-plus-sign"></i></button>
+<div id="pusa">
+</div>
+</div>
+</div>
+</div>
+</aside>
+</div>
+<footer><p>&copy;2013 CITIAR. All Rights Reserve</p></footer>
+</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="ROBOTS" content="INDEX,FOLLOW">
+<meta name="revisit-after" content="1 days">
+<meta name="description" content="CJHTML能帮你得到一个干净漂亮的HTML">
+<meta name="copyright" content="Copyright © 2013 CITIAR 版權所有">
+<title>CJHTML</title>
+<link href="favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+<link href="css/template.css" rel="stylesheet" media="screen">
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/cjhtml.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-40180298-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-40180298-1');
+</script>
+
+</head>
+<body>
+<div class="out-w">
+<header><ul class="lag_mu"><li><a href="index_en.html">English</a></li>
+<li><a href="index_cn.html">简体中文</a></li>
+<li><a href="index.html">繁體中文</a></li><li><a href="index_jp.html">日本語</a></li><li><a href="index_ku.html">한국어</a></li></ul></header>
+<div class="content-wrapper">
+<article>
+<section class="main-head">
+  <div class="main-left">
+    <div class="logo"><img src="images/cjhtml.png" alt="cjhtml"></div>
+    <p>CJHTML能帮你得到一个干净漂亮的HTML</p>
+    <button id="b1" class="btn btn-success btn-large">开始清洁</button>
+    <button type="button" class="btn btn-large" disabled="disabled" id="copys" onClick="copyVal()">复制清洁结果</button>
+  </div>
+  <div class="main-ad">
+      <script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <!-- 200X200 -->
+      <ins class="adsbygoogle"
+           style="display:inline-block;width:200px;height:200px"
+           data-ad-client="ca-pub-7199598699862512"
+           data-ad-slot="9980260931"></ins>
+      <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+  </div>
+</section>
+<section class="main-body"> 
+	<h2>Results</h2>  
+   <textarea id="rul"></textarea>
+   <div id="at2"></div>
+    <div id="swout">
+    </div>
+   </section>
+</article>
+<aside>
+<div class="input-wrapper">
+<h2>在这贴上您所要清洁的HTML</h2>
+<div class="in-wapper">
+<textarea id="at1">
+</textarea>
+</div>
+</div>
+<div class="input-wrapper input-att">
+<h2>告诉我你所不要的属性与标签</h2>
+<div class="in-wapper">
+<h3 data-toggle="tooltip" title="请用空格隔开所要清洁的属性(以下已经预设基本要清除的属性，可自行删除选用)">属性</h3>
+<textarea name="val" id="val">class title border cellpadding cellspacing style bordercolor width height valign align bgcolor face size color msimagelist lang</textarea>
+<div class="pu-tag">
+<h3 data-toggle="tooltip" title="请在输入栏位输入要清除的HTML标签(请不要使用 '< >'符号，直接输入名称即可，如'p'而不是<p>)">标签</h3>
+<button id="addin" class="btn"><i class="icon-plus-sign"></i></button>
+<div id="pusa">
+</div>
+</div>
+</div>
+</div>
+</aside>
+</div>
+<footer><p>&copy;2013 CITIAR. All Rights Reserve</p></footer>
+</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,217 @@
+/* @override http://localhost/~apple/jahtml/css/template.css */
+
+/* @group layout */
+
+body{
+	background: url(../images/sbg.gif) repeat-x #1089b6;
+}
+div.out-w {
+	background: url(../images/mains_02.jpg) no-repeat;
+	width: 995px;
+	height: 846px;
+	margin: 0 auto ;
+}
+header{
+	height: 35px;
+}
+
+div.content-wrapper {
+	
+}
+
+article {
+	float: right;
+	width: 520px;
+	padding-right: 16px;
+}
+aside{
+	
+	width: 441px;
+	float: left;
+	padding-top: 40px;
+}
+
+footer {
+	clear: both;
+	text-align: right;
+	color: #ffffff;
+	font-size: 12px;
+	padding-right: 50px;
+	padding-top: 8px;
+}
+#at2{
+	display:none; 
+}
+
+/* @end */
+
+/* @group headermu */
+
+ul.lag_mu {
+	float: right;
+	list-style-type: none;
+	padding: 0;
+	font-size: 12px;
+	margin: 10px 10px 0 0;
+}
+ul.lag_mu li{
+	margin-right: 5px;
+	float: left;
+}
+
+/* @end */
+
+/* @group main-head */
+section.main-head {
+	height: 210px;
+	padding-left: 30px;
+	padding-top: 80px;
+}
+
+div.logo {
+	margin-bottom: 15px;
+}
+
+section.main-head p{
+	color: #ffffff;
+	margin-bottom: 15px;
+}
+/* @end */
+
+/* @group main-body */
+
+section.main-body{
+	background-color: #ffffff;
+	height: 420px;
+}
+section.main-body h2 {
+	background-color: #2798c7;
+	color: #ffffff;
+	font-size: 15px;
+	padding-left: 15px;
+	padding-right: 30px;
+	margin: 0;
+}
+#rul{
+	border: 1px solid #d4d4d4;
+	width: 480px;
+	height: 300px;
+	overflow: auto;
+	margin-top: 10px;
+	margin-left: 9px;
+	padding: 10px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+#rul.oks{
+	border: 1px solid #d4d4d4;
+	-moz-box-shadow: inset 0 0 4px #1cff00;
+	-webkit-box-shadow: inset 0 0 4px #1cff00;
+	box-shadow: inset 0 0 4px #1cff00;
+}
+#swout {
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+#swout iframe{
+	
+}
+
+#b1 {
+	margin-right: 15px;
+}
+
+/* @end */
+
+/* @group aside */
+aside h2 {
+	background-color: #2798c7;
+	color: #ffffff;
+	font-size: 15px;
+	margin: 0;
+	float: left;
+	width: 20px;
+	line-height: normal;
+	padding-left: 5px;
+	padding-right: 5px;
+	height: 340px;
+	writing-mode: tb-rl;
+	-ms-writing-mode: tb-lr;
+	-webkit-writing-mode: vertical-lr;
+	-moz-writing-mode: vertical-lr;
+	-ms-writing-mode: vertical-lr;
+	writing-mode: vertical-lr;
+	text-align: center;
+	padding-top: 10px;
+}
+aside h3{
+	font-size: 15px;
+	margin: 0 0 10px;
+	line-height: 20px;
+}
+div.in-wapper {
+	float: right;
+	width: 390px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.main-left{
+	width: 270px;
+	float: left;
+}
+.main-ad{
+	width: 210px;
+	float: right;
+	margin-top: -25px;
+}
+#at1 {
+	width: 96%;
+	height: 315px;
+	overflow: auto;
+}
+
+#val {
+	width: 96%;
+	height: 80px;
+	overflow: auto;
+}
+
+#pusa input{
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.btn {
+	float: left;
+}
+
+#pusa {
+	width: 345px;
+	float: right;
+}
+
+aside h2 span{	
+	display: block;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+	margin-top: 5px;
+}
+div.input-wrapper {
+	height: 350px;
+	background-color: #ffffff;
+	margin-bottom: 20px;
+}
+div.input-att{
+	height: 300px;
+	margin: 0;
+}
+
+div.input-att h2{
+	height: 290px;
+}
+/* @end */
