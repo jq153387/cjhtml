@@ -1,6 +1,8 @@
 # CJHTML
 
-CJHTML幫助您快速**移除HTML標籤與屬性**
+**CJHTML**幫助您快速**移除HTML標籤與屬性**
+
+![github_banner](https://user-images.githubusercontent.com/11733606/97226538-16248400-180f-11eb-8b22-c3b67fc0d457.png)
 
 [http://cjhtml.citiar.com/](http://cjhtml.citiar.com/)
 
@@ -12,4 +14,9 @@ CJHTML幫助您快速**移除HTML標籤與屬性**
 
 就因為這樣導致你無法順手的使用**CSS**寫樣式，因此你只能浪費瑣碎的時間，不斷重覆手動刪除這些雜亂無用處的html標簽與屬性，現在你可以嘗試使用CJHTML幫助你，快速自動清潔刪除這些不必要的標簽與屬性。
 
-[Chrome 線上應用程式商店](https://chrome.google.com/webstore/detail/cjhtml/ekcpokmjjfacpjjcpnkpdihjjpiphoph?hl=zh-TW&utm_source=chrome-ntp-launcher)
+
+[![chtomestore](https://user-images.githubusercontent.com/11733606/97226506-07d66800-180f-11eb-8c6e-918a16cc9fc9.png)
+](https://chrome.google.com/webstore/detail/cjhtml/ekcpokmjjfacpjjcpnkpdihjjpiphoph?hl=zh-TW&utm_source=chrome-ntp-launcher)
+
+[可在 Chrome 線上應用程式商店取得](https://chrome.google.com/webstore/detail/cjhtml/ekcpokmjjfacpjjcpnkpdihjjpiphoph?hl=zh-TW&utm_source=chrome-ntp-launcher)
+
