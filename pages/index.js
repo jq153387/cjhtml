@@ -14,6 +14,9 @@ function HomePage() {
         <title>CJHTML</title>
       </head>
       <div>Welcome to CJHTML!</div>
+      <div>
+        <img src="https://user-images.githubusercontent.com/11733606/97226538-16248400-180f-11eb-8b22-c3b67fc0d457.png" />
+      </div>
     </div>
   );
 }
