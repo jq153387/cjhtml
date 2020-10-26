@@ -14,7 +14,7 @@
 
 就因為這樣導致你無法順手的使用**CSS**寫樣式，因此你只能浪費瑣碎的時間，不斷重覆手動刪除這些雜亂無用處的html標簽與屬性，現在你可以嘗試使用CJHTML幫助你，快速自動清潔刪除這些不必要的標簽與屬性。
 
-![Available on the Chrome Web Store](https://user-images.githubusercontent.com/11733606/97227412-694b0680-1810-11eb-9c42-f77e82e5bbce.png)
+![Available on the Chrome Web Store](https://user-images.githubusercontent.com/11733606/97228269-a19f1480-1811-11eb-9b01-41917848d88a.png)
 
 [可在 Chrome 線上應用程式商店取得](https://chrome.google.com/webstore/detail/cjhtml/ekcpokmjjfacpjjcpnkpdihjjpiphoph?hl=zh-TW&utm_source=chrome-ntp-launcher)
 
@@ -34,6 +34,6 @@ It is also possible that because of the information on the old version of the we
 
 Because of this, you can’t use **CSS** to write styles easily, so you can only waste trivial time and manually delete these messy and useless html tags and attributes. Now you can try to use CJHTML to help you. Quickly and automatically clean and delete these unnecessary tags and attributes.
 
-![Available on the Chrome Web Store](https://user-images.githubusercontent.com/11733606/97227412-694b0680-1810-11eb-9c42-f77e82e5bbce.png)
+![Available on the Chrome Web Store](https://user-images.githubusercontent.com/11733606/97228269-a19f1480-1811-11eb-9b01-41917848d88a.png)
 
 [Available on the Chrome Web Store](https://chrome.google.com/webstore/detail/cjhtml/ekcpokmjjfacpjjcpnkpdihjjpiphoph?hl=zh-TW&utm_source=chrome-ntp-launcher)
