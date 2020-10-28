@@ -1,7 +1,9 @@
+import Head from "next/head";
+
 function HomePage() {
   return (
     <div>
-      <head>
+      <Head>
         <meta charset="UTF-8" />
         <meta name="ROBOTS" content="INDEX,FOLLOW" />
         <meta name="revisit-after" content="1 days" />
@@ -12,7 +14,7 @@ function HomePage() {
         />
         <meta name="copyright" content="Copyright © 2013 CITIAR 版權所有" />
         <title>CJHTML</title>
-      </head>
+      </Head>
       <div>Welcome to CJHTML!</div>
       <div>
         <img src="https://user-images.githubusercontent.com/11733606/97226538-16248400-180f-11eb-8b22-c3b67fc0d457.png" />
