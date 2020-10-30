@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form'
+import Button from 'react-bootstrap/Button'
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function HomePage() {
@@ -41,6 +42,10 @@ function HomePage() {
             </Form>
           </Col>
           <Col sm={4}>
+              <>
+                <Button>開始清潔</Button>
+                <Button variant="light">複制清潔結果</Button> 
+                </>
             <h3>清潔結果</h3>
             <Form>
                 <Form.Group controlId="exampleForm.ControlTextarea1">
