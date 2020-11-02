@@ -9,10 +9,29 @@
   },
   "dependencies": {
     "bootstrap": "^4.5.3",
+    "lost": "^8.3.1",
     "next": "^9.5.5",
+    "node-sass": "^4.14.1",
+    "postcss": "^8.1.4",
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.0",
-    "react-dom": "^17.0.1"
+    "react-bootstrap-icons": "^1.1.0",
+    "react-dom": "^17.0.1",
+    "react-icons": "^3.11.0",
+    "reset-css": "^5.0.1",
+    "rucksack-css": "^1.0.2",
+    "susy": "^3.0.6"
+  },
+  "postcss": {
+    "plugins": {
+      "lost": {},
+      "rucksack-css": {},
+      "autoprefixer": {
+        "browsers": [
+          "last 2 versions"
+        ]
+      }
+    }
   },
   "devDependencies": {
     "eslint": "7.2.0",
