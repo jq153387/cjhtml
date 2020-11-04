@@ -11,9 +11,6 @@ header {
   }
 }
 main {
-  .row.body {
-    // height: calc(100vh - #{$headerHeight});
-  }
   textarea.form-control {
     height: calc(100vh - #{($headerHeight + $buttonAreaHeight)});
   }
