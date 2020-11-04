@@ -4,11 +4,12 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
-import { IoIosAddCircle } from "react-icons/io";
+import Navbar from 'react-bootstrap/Navbar'
+import { IoIosAddCircle } from 'react-icons/io'
 
 function HomePage() {
   return (
-    <div>
+    <>
       <Head>
         <meta charset="UTF-8" />
         <meta name="ROBOTS" content="INDEX,FOLLOW" />
@@ -21,64 +22,77 @@ function HomePage() {
         <meta name="copyright" content="Copyright © 2013 CITIAR 版權所有" />
         <title>CJHTML</title>
       </Head>
-      <img src="cjhtml.png" className="logo"/>
-      <Container fluid>
-        <Row className="body">
-          <Col sm={4} className="bodyCol">
-         
-            <Form>
-              <Form.Group controlId="exampleForm.ControlTextarea1">
+      <header>
+        <Navbar>
+          <Navbar.Brand href="#home">
+            <img src="cjhtml.png" className="logo" style={{ width: '160px' }} />
+            &nbsp;&nbsp;CJHTML能幫你得到一個乾淨漂亮的HTML
+          </Navbar.Brand>
+          <Navbar.Toggle />
+          <Navbar.Collapse className="justify-content-end">
+            <Navbar.Text>
+              <Form.Control as="select" size="sm" custom>
+                <option>EN</option>
+                <option>繁中</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </Form.Control>
+            </Navbar.Text>
+          </Navbar.Collapse>
+        </Navbar>
+      </header>
+      <main>
+        <Container fluid>
+          <Form>
+            <Row>
+              <Col lg="3">
                 <Form.Control
                   as="textarea"
-                  rows={5}
                   placeholder="告訴我你所不要的屬性與標籤"
+                  id="attr_tarea1"
                 />
-                 <div className="noNeed">
-            <h3>標籤</h3>
-                 <Row>
-                <Col>
-                <>
-                  <Button variant="link"><IoIosAddCircle size="20px" /></Button>
-                </>
-                </Col>
-                <Col xs lg="3">
-                  <Form.Control type="text"/>
-                </Col>
-                <Col xs lg="3">
-                  <Form.Control type="text"/>
-                </Col>
-                <Col xs lg="3">
-                  <Form.Control type="text"/>
-                </Col>
-          </Row>
-          </div>
-              </Form.Group>
-            </Form>
-          </Col>
-          <Col sm={4} className="bodyCol">
-            <Form>
-              <Form.Group controlId="exampleForm.ControlTextarea1">
-                <Form.Control as="textarea" rows={5} placeholder="在這貼上您所要清潔的HTML" />
-              </Form.Group>
-            </Form>
-          </Col>
-          <Col sm={4} className="bodyCol">
-            <>
-              <div className="buttonArea">
-              <Button>開始清潔</Button>
-              <Button variant="light">複製清潔結果</Button>
-              </div>
-            </>
-            
-            <Form>
-              <Form.Group controlId="exampleForm.ControlTextarea1">
-                <Form.Control as="textarea" rows={5}  placeholder="複制清潔結果"/>
-              </Form.Group>
-            </Form>
-          </Col>
-        </Row>
-      </Container>
-    </div>
+                <Row id="attr_tarea2">
+                  <Col>
+                    <Button variant="link">
+                      <IoIosAddCircle size="20px" />
+                    </Button>
+                  </Col>
+                  <Col xs lg="3">
+                    <Form.Control type="text" />
+                  </Col>
+                  <Col xs lg="3">
+                    <Form.Control type="text" />
+                  </Col>
+                  <Col xs lg="3">
+                    <Form.Control type="text" />
+                  </Col>
+                </Row>
+              </Col>
+              <Col>
+                <Row className="body">
+                  <Col className="bodyCol">
+                    <div className="buttonArea">
+                      <Button variant="start">開始清潔</Button>
+                    </div>
+                    <Form.Control
+                      as="textarea"
+                      placeholder="在這貼上您所要清潔的HTML"
+                    />
+                  </Col>
+                  <Col className="bodyCol">
+                    <div className="buttonArea">
+                      <Button variant="light">複製清潔結果</Button>
+                    </div>
+                    <Form.Control as="textarea" placeholder="複制清潔結果" />
+                  </Col>
+                </Row>
+              </Col>
+            </Row>
+          </Form>
+        </Container>
+      </main>
+    </>
   )
 }
 
